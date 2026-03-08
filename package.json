@@ -1,0 +1,29 @@
+{
+  "name": "hhresumerise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {},
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "fs-extra": "^11.3.3",
+    "node-cron": "^4.2.1",
+    "node-telegram-bot-api": "^0.67.0",
+    "open": "^11.0.0",
+    "playwright": "^1.58.2",
+    "puppeteer": "^24.37.5",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.3"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
