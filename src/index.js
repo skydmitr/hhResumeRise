@@ -28,7 +28,7 @@ async function run(chatId) {
 
         if (authResult.page) {
             page = authResult.page;
-            context = authResult.context; // не закрывали его в auth
+            context = authResult.context;
         } else {
             context = await browser.newContext({
                 storageState: AUTH_FILE
